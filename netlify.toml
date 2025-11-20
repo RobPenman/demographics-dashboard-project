@@ -1,0 +1,11 @@
+[build]
+
+The command to run the build process (runs 'vite build')
+
+command = "npm run build"
+
+The directory to publish after the build is complete.
+
+Vite outputs production assets to the 'dist' folder.
+
+publish = "dist"
