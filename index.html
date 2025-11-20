@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demographics Dashboard</title>
+    <!-- We load Tailwind here for convenient styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Ensure the application uses the Inter font family */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
-    <!-- Script to load the main React app - replace with your actual file path if different -->
-    <script type="module" src="/src/DemographicsDashboard.jsx"></script>
+    <!-- CRITICAL FIX: The path is set to /app.jsx to match the file in the root directory. -->
+    <script type="module" src="/app.jsx"></script>
   </body>
 </html>
