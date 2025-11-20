@@ -1,0 +1,20 @@
+/* This file is the entry point for all CSS.
+It imports the Tailwind directives, which allows the compiler to inject 
+the necessary styles based on the utility classes used in the JSX files. 
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Apply a default font family and background color to the body 
+to ensure consistent styling across the application. 
+*/
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f9; /* Light gray background */
+}
+
+/* Optional: Ensure the entire app container takes up the full viewport height */
+#root {
+  min-height: 100vh;
+}
