@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demographics Dashboard</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Script to load the main React app - replace with your actual file path if different -->
+    <script type="module" src="/src/DemographicsDashboard.jsx"></script>
+  </body>
+</html>
